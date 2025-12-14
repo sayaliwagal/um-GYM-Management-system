@@ -1,12 +1,14 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://um-gym-management-system-0jfg.onrender.com"
+  baseURL: "https://um-gym-management-system-0jfg.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
   const token = localStorage.getItem("token");
-  if (token) req.headers.Authorization = `Bearer ${token}`;
+  if (token) {
+    req.headers.Authorization = `Bearer ${token}`;
+  }
   return req;
 });
 
