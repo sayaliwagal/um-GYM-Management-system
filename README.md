@@ -1,4 +1,6 @@
 🏋️‍♂️ Gym Management System (MERN Stack)
+
+[site Link :-](https://um-gym-management-system.netlify.app/admin)
 📌 Project Overview
 
 Payment receipts at many gyms are traditionally printed on paper, making them difficult to store, track, and retrieve. Gym owners also face challenges in manually notifying members about monthly fees, working/non-working days, and payment updates.
@@ -224,6 +226,8 @@ SMS / Email Notifications
 Sayali Wagal
 Gym Management System – MERN Stack Project
 Domain: Sports
+admin login :- email - admin12@gym.com
+                password - 123
 
 ✅ Conclusion
 
